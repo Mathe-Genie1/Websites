@@ -1,2 +1,2 @@
 # Websites
-The websites i created when learning JavaScript at Uni
+The websites I created when learning JavaScript at Uni
