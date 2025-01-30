@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pizzarechner</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="pizzarechner.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <legend><b>Pizzarechner</b></legend><br>
+
+            <form id="pizzaForm">
+                <span>Erhaltener Umfang:</span><br>
+                <input type="number" id="umfang" name="umfang" required><br>
+                <span>Versprochener Durchmesser:</span><br>
+                <input type="number" id="versprochenerDurchmesser" name="versprochenerDurchmesser" required><br><br>
+                <button type="button" id="calculate-btn">Berechnen</button><br><br>
+                <span type="text" id="output"></span>
+            </form>
+        </div>
+    </body>
+</html>

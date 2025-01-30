@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <title>Rechnung</title>
+    <link rel="styleshift" href="style.css" />
+    <script type="text/javascript" src="pythagoras.js"> </script> 
+   
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        label{
+            display: block;
+        }
+    </style>
+
+ </head>
+ <body>
+
+    <div>
+        <div>
+            <legend><b>Pythagoras</b></legend>
+
+            <br>
+
+            <div>
+                <span>a:</span>
+                <input type="number" id="a">
+            </div>
+
+            <br>
+
+            <div>
+                <span>b:</span>
+                <input type="number" id="b">
+            </div>
+
+            <br>
+
+        </div>
+        <div>
+            <button type="button" id="calculate-btn">Berechnen!</button><br>
+        </div>
+        <div>
+            <span>c:</span> 
+            <span id="c"></span>
+        </div>
+    </div>
+    
+ </body>
+</html>

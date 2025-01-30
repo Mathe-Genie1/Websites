@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Feueralarm</title>
+        <script src="alarm.js"></script>
+    </head>
+    <body>
+        <h3>Feueralarm</h3>
+
+        <div>
+            <fieldset>
+
+                <legend><b>Alarmanlage</b></legend><br>
+
+                <div>
+                    <span>Rauchmelder:</span>
+                    <input type="checkbox" id="smoke-sensor">
+                </div>
+
+                <div>
+                    <span>Lichtsensor:</span>
+                    <input type="checkbox" id="light-sensor">
+                </div>
+
+                <div>
+                    <span>Deckenlicht:</span>
+                    <input type="checkbox" id="light">
+                </div>
+
+                <button type="button" id="check-btn">Prüfen</button>
+
+            </fieldset>
+            
+            <fieldset>
+                <div>
+                    <img src="sirene-off.png" height="100px" id="feedback">
+                </div>
+
+                <div>
+                    <p id="output"></p>
+                </div>
+            </fieldset>
+        </div>
+    </body>
+</html>

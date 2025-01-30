@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Zinsrechner</title>
+        <script src="zinsrechner.js"></script>
+    </head>
+    <body>
+        <fieldset>
+            <legend><b>Zinsrechner</b></legend><br><br>
+            
+            <div>
+                <span>Investment: </span>
+                <input type="Number" min="0" id="capital"><br>
+                <span>Zinssatz (%): </span>
+                <input type="Number" min="0" id="percentage"><br>
+                <span>Laufzeit in Jahren: </span>
+                <input type="number" min="0" step="1" id="years"><br>
+                <button type="button" id="Zinsen-btn">Berechnen</button><br>
+                <span id="output"></span>
+            </div>
+        </fieldset>
+    </body>
+</html>        

@@ -1,0 +1,30 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-gap: 5px;
+    max-width: 40%;
+  }
+
+.gamecell{
+    aspect-ratio: 1;
+    min-width: 10px;
+    min-height: 10px;
+}
+
+#player-vis{
+    width: 100px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.grey{
+    background-color: grey;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.blue{
+    background-color: blue;
+}
